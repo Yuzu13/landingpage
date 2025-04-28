@@ -74,13 +74,14 @@
     .form-lead-section {
       display: flex;
       flex-wrap: wrap;
-      background: white;
+      background: linear-gradient(135deg, #4CAF50, #1976D2);
       padding: 40px;
       max-width: 1200px;
       margin: 40px auto;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
       border-radius: 10px;
       gap: 40px;
+      color: white;
     }
 
     .form-lead-section .lead-text,
@@ -96,14 +97,13 @@
     }
 
     .lead-text h2 {
-      color: #1976D2;
       font-size: 2em;
       margin-bottom: 20px;
     }
 
     .lead-text p {
       font-size: 1.2em;
-      color: #555;
+      color: #e0f7fa;
     }
 
     form input, form select, form button {
@@ -113,6 +113,11 @@
       border: 1px solid #ccc;
       border-radius: 8px;
       font-size: 1em;
+    }
+
+    form input, form select {
+      background: white;
+      color: #333;
     }
 
     form input:focus, form select:focus {
@@ -179,7 +184,7 @@
       background: #ffffff;
       padding: 25px;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
       width: 300px;
       text-align: center;
       transition: transform 0.3s;
@@ -209,7 +214,7 @@
       flex: 1;
       background: #ffffff;
       padding: 30px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
       border-radius: 10px;
       min-width: 300px;
     }
@@ -265,7 +270,7 @@
 <nav>
   <a href="#planos">Tipos de Planos</a>
   <a href="#formulario">Consultoria</a>
-  <a href="#privacidade">Politica de Privacidade</a>
+  <a href="#privacidade">Política de Privacidade</a>
 </nav>
 
 <section class="hero">
